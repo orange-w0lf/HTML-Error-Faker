@@ -1,0 +1,49 @@
+ _    _ _______ _______ _____    ______ _____  _____   ____  _____  
+| |  | |__   __|__   __|  __ \  |  ____|  __ \|  __ \ / __ \|  __ \ 
+| |__| |  | |     | |  | |__) | | |__  | |__) | |__) | |  | | |__) |
+|  __  |  | |     | |  |  ___/  |  __| |  _  /|  _  /| |  | |  _  / 
+| |  | |  | |     | |  | |      | |____| | \ \| | \ \| |__| | | \ \ 
+|_|  |_|  |_|     |_|  |_|      |______|_|  \_\_|  \_\\____/|_|  \_\
+                                                                    
+                                                                    
+ _    _          _   _ _____  _      ______ _____  
+| |  | |   /\   | \ | |  __ \| |    |  ____|  __ \ 
+| |__| |  /  \  |  \| | |  | | |    | |__  | |__) |
+|  __  | / /\ \ | . ` | |  | | |    |  __| |  _  / 
+| |  | |/ ____ \| |\  | |__| | |____| |____| | \ \ 
+|_|  |_/_/    \_\_| \_|_____/|______|______|_|  \_\
+
+Stands for HEH, it does not invoke standard Apache return vars.
+	IT DOES NOT REPLACE THE 404 PAGE OF APACHE!
+
+INSTALLATION
+	place the HEH folder 
+USAGE
+	include __DIR__ . '/path/to/HEH/tk.heh.c.php'; //Class file
+	$x = new HEH; //Spawn HEH
+	$x -> createList(); //Create the 200± responses
+	$x -> err(418); //Change 418 to desired error code ( http://en.wikipedia.org/wiki/List_of_HTTP_status_codes )
+	echo $x -> compiled; //Required. 
+
+Requirements:
+	PHP4 or later
+	Apache, or IIS
+	A brain
+	
+-HEH is brought to the internet by tkGr33n
+
+      ___           ___           ___     
+     /\__\         /\  \         /\__\    
+    /:/  /        /::\  \       /:/  /    
+   /:/__/        /:/\:\  \     /:/__/     
+  /::\  \ ___   /::\~\:\  \   /::\  \ ___ 
+ /:/\:\  /\__\ /:/\:\ \:\__\ /:/\:\  /\__\
+ \/__\:\/:/  / \:\~\:\ \/__/ \/__\:\/:/  /
+      \::/  /   \:\ \:\__\        \::/  / 
+      /:/  /     \:\ \/__/        /:/  /  
+     /:/  /       \:\__\         /:/  /   
+     \/__/         \/__/         \/__/
+     
+     
+__ If you're british: Take one more sip of your warm coco and head to bed
+__ If you're american: Put your UZI in the draw, take one more sniff from that crack pipe, and straight off to bed
