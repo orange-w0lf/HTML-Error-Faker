@@ -1,5 +1,5 @@
 <?php
-	//tkGr33n HTTP ERROR HEADER (fake)
+	//tkGr33n/orange-f0x HTTP ERROR HEADER (fake)
 	//		BASIC USEAGE
 	// 			include '/path/to/HTTP.php';
 	//			$x = new HEH;
